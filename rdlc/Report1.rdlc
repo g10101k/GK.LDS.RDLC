@@ -235,7 +235,6 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>_I_LDS_Common_TestDataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\TyulyakovIB\OneDrive - InduSoft Llc\Work\rdlc\rdlc\_I_LDS_Common_TestDataSet.xsd</rd:SchemaPath>
         <rd:TableName>SysDatabaseProps</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
