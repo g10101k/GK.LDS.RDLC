@@ -22,16 +22,5 @@ namespace rdlc.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=192.168.37.40;Initial Catalog=I-LDS_Common_Test;User ID=sa;Password=1" +
-            "q2w3e$R")]
-        public string I_LDS_Common_TestConnectionString {
-            get {
-                return ((string)(this["I_LDS_Common_TestConnectionString"]));
-            }
-        }
     }
 }

@@ -177,9 +177,7 @@
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
-        <DataSetName>DataSet1</DataSetName>
-        <Top>2.08703cm</Top>
-        <Left>3.8862cm</Left>
+        <DataSetName>DSet1</DataSetName>
         <Height>1.2cm</Height>
         <Width>5cm</Width>
         <Style>
@@ -205,7 +203,7 @@
   </Page>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="ID_I_LDS_Common_TestDataSet">
+    <DataSource Name="DataSource">
       <ConnectionProperties>
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
@@ -214,9 +212,9 @@
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="DataSet1">
+    <DataSet Name="DSet1">
       <Query>
-        <DataSourceName>ID_I_LDS_Common_TestDataSet</DataSourceName>
+        <DataSourceName>DataSource</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
@@ -233,13 +231,6 @@
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>_I_LDS_Common_TestDataSet</rd:DataSetName>
-        <rd:TableName>SysDatabaseProps</rd:TableName>
-        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
-        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>SysDatabasePropsTableAdapter</rd:TableAdapterName>
-      </rd:DataSetInfo>
     </DataSet>
   </DataSets>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>

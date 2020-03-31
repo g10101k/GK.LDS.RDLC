@@ -42,11 +42,10 @@ namespace rdlc
         private void RuntimeRDLC()
         {
             reportViewer1.Reset();
-            ReportDataSource reportDataSource = new ReportDataSource("DataSet1", getData());
+            ReportDataSource reportDataSource = new ReportDataSource("DSet1", getData());
             reportViewer1.LocalReport.DataSources.Add(reportDataSource);
             reportViewer1.LocalReport.ReportEmbeddedResource = "rdlc.Report1.rdlc";
             reportViewer1.RefreshReport();
-            //reportViewer1.ReportExport += "";
         }
     }
 }
